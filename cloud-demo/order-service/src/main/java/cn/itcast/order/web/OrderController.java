@@ -28,9 +28,9 @@ public class OrderController {
      * 配置负载均衡规则，覆盖原有的规则
      * @return
      */
-    @Bean
-    public IRule randomRule(){
-        return new RandomRule();
-    }
+//    @Bean
+//    public IRule randomRule(){
+//        return new RandomRule();
+//    }
 
 }
