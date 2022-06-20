@@ -11,10 +11,10 @@ spring:
   cloud:
     nacos:
       server-addr: localhost:8848 #nacos服务地址
-      discovery:
-        cluster-name: SY
-        namespace: fbf67ac7-eb50-452a-885a-6acf717fd39c
-        ephemeral: false #设置为非临时实例
+#      discovery:
+#        cluster-name: SY
+#        namespace: fbf67ac7-eb50-452a-885a-6acf717fd39c
+#        ephemeral: false #设置为非临时实例
 
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
